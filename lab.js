@@ -142,13 +142,13 @@ let passingScore = 7;
 
 //CODE HERE
 
-let changeMyMind = true
+let changeMyMind = false
 
-if(changeMyMind){
-  changeMyMind = false
-} else {
-  changeMyMind = true
-}
+// if(changeMyMind){
+//   changeMyMind = false
+// } else {
+//   changeMyMind = true
+// }
 
 
 ////////// PROBLEM 10 //////////
@@ -156,6 +156,9 @@ if(changeMyMind){
 
 //CODE HERE
 
+changeMyMind = !changeMyMind
+
+console.log(changeMyMind)
 ////////// ADVANCED PROBLEMS //////////
 
 ////////// PROBLEM 11 //////////
